@@ -8,7 +8,7 @@ function Navbar() {
     const [menu, setmenu] = useState(false);
     return (
         <>
-            <div className='sticky top-0 w-screen flex flex-row justify-between items-center p-4 border-2 border-b border-slate-300/50 bg-gradient-to-r from-blue-400 to-blue-800'>
+            <div className='sticky top-0 flex flex-row justify-between items-center p-4 border-2 border-b border-slate-300/50 bg-gradient-to-r from-blue-400 to-blue-800'>
                 <div className="flex flex-column gap-4">
                     <BsFillMenuButtonFill />
                     <h3>hello</h3>

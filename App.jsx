@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Componenets/Navbar'
 import Hero from './Componenets/Hero'
 import OurClient from './Componenets/OurClient'
+import ManageCom from './Componenets/ManageCom'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <OurClient/>
+      <ManageCom/>
     </>
   )
 }
