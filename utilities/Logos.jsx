@@ -1,0 +1,31 @@
+
+export const logos=[
+    {
+        src:"https://cdn.pixabay.com/photo/2017/02/17/17/33/food-2074638_640.png",
+        alt:"logo",
+    },
+    {
+         src:"https://cdn.pixabay.com/photo/2017/01/31/23/42/animal-2028258_640.png",
+         alt:"logo",
+    },
+    {
+        src:"https://cdn.pixabay.com/photo/2020/09/16/18/39/icon-5577198_640.png",
+        alt:'logo',
+    },
+    {
+        src:"https://cdn.pixabay.com/photo/2014/04/02/10/16/fire-303309_640.png",
+        alt:"logo"
+    },
+    {
+        src:"https://cdn.pixabay.com/photo/2016/12/17/15/50/logo-1913689_640.png",
+        alt:"logo"
+    },
+    {
+       src:"https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_640.png",
+       alt:"logo"
+    },
+    {
+        src:"https://cdn.pixabay.com/photo/2016/01/16/08/04/aperture-1142967_1280.png",
+        alt:"logo"
+    }
+];
