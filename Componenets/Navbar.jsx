@@ -36,7 +36,7 @@ function Navbar() {
             </div>
             {
                 menu ?
-                    <div className='md:hidden block p-4 bg-slate-600'>
+                    <div className='fixed w-full md:hidden block p-4 bg-slate-600'>
                         {
                             <ul className='flex flex-col justify-center items-center gap-4 '>
                                 {
