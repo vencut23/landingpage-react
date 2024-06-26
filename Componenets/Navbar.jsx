@@ -4,7 +4,19 @@ import { MdMenuOpen } from "react-icons/md";
 import { BsFillMenuButtonFill } from "react-icons/bs";
 import { useState } from 'react';
 function Navbar() {
-    const comp = ['Home', 'About', 'Contact', 'Sign in'];
+    const comp = [{
+        name: 'Home',
+        sec: '#Home',
+    }, {
+        name: 'About',
+        sec: '#About',
+    }, {
+        name: 'Contact',
+        sec: '#contact',
+    }, {
+        name: 'Sign In',
+        sec: '#signin',
+    }];
     const [menu, setmenu] = useState(false);
     return (
         <>
@@ -19,7 +31,7 @@ function Navbar() {
                             comp.map((comp, index) => {
                                 return (
                                     <li key={index} className='rounded  border-slate-300 border-2 p-1 pl-2 pr-2  bg-slate-100'>
-                                        <a src="#">{comp}</a>
+                                        <a href={comp.sec}>{comp.name}</a>
                                     </li>
                                 )
                             })
@@ -43,7 +55,7 @@ function Navbar() {
                                     comp.map((comp, index) => {
                                         return (
                                             <li key={index} className='border-b p-0 border-slate-200 w-full text-center'>
-                                                <a src='#'>{comp}</a>
+                                                <a href={comp.sec}>{comp.name}</a>
                                             </li>
                                         )
                                     })

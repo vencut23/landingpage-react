@@ -11,6 +11,7 @@ import Helping from './Componenets/Helping'
 import Customers from './Componenets/Customers'
 import Caring from './Componenets/Caring'
 import Demo from './Componenets/Demo'
+import Footer from './Componenets/Footer'
 
 function App() {
   
@@ -27,6 +28,7 @@ function App() {
       <Customers/>
       <Caring/>
       <Demo/>
+      <Footer/>
     </>
   )
 }

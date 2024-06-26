@@ -3,7 +3,7 @@ import React from 'react'
 function Hero() {
    return (
       <>
-         <div className="max-w-[14890px] flex flex-col items-center gap-16 sm:flex-row pl-6 pt-32 pb-32 pr-6 justify-around bg-gradient-to-r from-neutral-600 to-neutral-900">
+         <div id="Home" className="max-w-[14890px] flex flex-col items-center gap-16 sm:flex-row pl-6 pt-32 pb-32 pr-6 justify-around bg-gradient-to-r from-neutral-600 to-neutral-900">
             <div className='flex flex-col gap-4'>
                <h1 className=' text-3xl'>
                   Lessons and insights

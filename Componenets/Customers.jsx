@@ -4,7 +4,7 @@ import { logos } from '../utilities/Logos'
 function Customers() {
     return (
         <>
-            <div className="flex gap-10 pt-16 pb-16 pl-5 pr-5 flex-col sm:flex-row md:grid grid-cols-6 justify-center items-center">
+            <div id="About" className="flex gap-10 pt-16 pb-16 pl-5 pr-5 flex-col sm:flex-row md:grid grid-cols-6 justify-center items-center">
                 <div className="flex justify-center items center col-start-2 col-end-3">
                     <img className="max-h-32 min-w-40" src={logos[1].src} alt='hello'/>
                 </div>
